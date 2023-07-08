@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './Components/Header'
 import Automobilesandparts from './assets/Automobilesandparts.png';
@@ -42,9 +40,9 @@ function App() {
   }, []);
 
   return (
-    <div className=''>
+    <div>
       <Header/>
-      <img src={backgroundImage} alt="Background" style={{ width: "100%" }} />
+      <img src={backgroundImage} alt="Background" style={{ width: "100%", height: "600px" } } className="carh rounded-lg " />
       <Footer/>
   </div>
   )
