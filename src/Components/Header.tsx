@@ -4,7 +4,6 @@ import logo from './../assets/Images/logo.gif';
 
 function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
-
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
