@@ -11,10 +11,6 @@ import localcircle from './assets/localcircle.png';
 import Footer from "./Components/Footer";
 import AboutUs from "./Components/AboutUs";
 import Download from "./Components/Download";
-<<<<<<< HEAD
-import Pricing from "./Components/Pricing";
-=======
->>>>>>> 33766db0efb8c2c55b050c6ce4a5fe58b0bf3199
 function App() {
   const [count, setCount] = useState(0)
   const images = [
@@ -52,10 +48,6 @@ function App() {
       <div className="flex justify-center">
         <img src="src/assets/Images/logo2.gif" alt="Logo" className="w-96"  />
       </div>
-<<<<<<< HEAD
-      <Pricing/>
-=======
->>>>>>> 33766db0efb8c2c55b050c6ce4a5fe58b0bf3199
       <Download/>
       <Footer/>
   </div>
